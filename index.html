@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+
+    <title>Camara | Micro</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Titulo  -->
+      <div class="titulo">
+        <h1>Tomar Fotos y Descargar</h1>
+      </div>
+      <!-- mensajes -->
+      <div class="contenedor-mensaje">
+        <div class="mensaje"></div>
+      </div>
+      <!-- Camara  -->
+      <div class="web-cam">
+        <video src="" class="camara" id="camara"></video>
+      </div>
+      <!-- Botones -->
+      <div class="botones">
+        <button id="captura" class="btn btn-dark">Tomar Foto</button>
+        <button id="grabar" class="btn btn-secondary">Grabar Video</button>
+      </div>
+      <!-- --canvas-- -->
+      <div class="canvas-contenedor">
+        <!-- <canvas id="canvas"></canvas> -->
+        <a id="download"></a>
+      </div>
+      <!-- boton descarga  -->
+      <div class="descargas">
+        <button id="btn-descargar" class="btn descargar">
+          Descargar Imagenes
+        </button>
+      </div>
+    </div>
+    <!-- <img src="" id="photo" alt="photo"> -->
+
+    <script src="app.js"></script>
+  </body>
+</html>

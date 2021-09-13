@@ -1,0 +1,75 @@
+/*! contenedores */
+.titulo,
+.botones {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.web-cam {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.camara {
+  width: 400px;
+  height: 400px;
+  background: #000000;
+  border-radius: 100%;
+  border: 2px solid rgb(0, 0, 0);
+}
+.botones button {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 150px;
+  border: none;
+}
+.canvas-contenedor {
+  background: rgba(0, 0, 0, 0.3);
+  margin-top: 30px;
+  min-height: 170px;
+  margin-bottom: 30px;
+
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.canvas {
+  width: 15%;
+  height: auto;
+  margin-right: 6px;
+}
+.contenedor-mensaje {
+  display: flex;
+  justify-content: center;
+  min-height: 50px;
+  margin-bottom: 10px;
+}
+.mensaje.activo {
+  background: #f56767;
+  min-height: 50px;
+  color: #e6e4e4;
+  justify-content: center;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+.descargas {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/*! Botones  */
+#captura:hover {
+  background: #242424;
+}
+.descargar {
+  background: #5b5a5e;
+  color: rgb(255, 255, 255);
+}
+.descargar:hover {
+  background: #e3e2e5;
+}
